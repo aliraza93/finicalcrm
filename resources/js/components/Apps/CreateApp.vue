@@ -63,22 +63,28 @@
                 </div>
                 <div class="row">
                     <div class="form-group col-md-6">
-                        <label class="form-label" for="modern-username">Username</label>
-                        <input type="text" id="modern-username" class="form-control" placeholder="johndoe" />
+                        <label class="form-label" for="modern-username">What is your business name?</label>
+                        <input type="text" id="modern-business-name" class="form-control" placeholder="Business Name" />
                     </div>
                     <div class="form-group col-md-6">
-                        <label class="form-label" for="modern-email">Email</label>
-                        <input type="email" id="modern-email" class="form-control" placeholder="john.doe@email.com" aria-label="john.doe" />
+                        <label class="form-label" for="modern-phone-number">Business Phone number</label>
+                        <input type="text" id="modern-email" class="form-control" placeholder="Business Phone Number" aria-label="john.doe" />
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group form-password-toggle col-md-6">
-                        <label class="form-label" for="modern-password">Password</label>
-                        <input type="password" id="modern-password" class="form-control" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" />
+                        <label class="form-label" for="modern-password">Email</label>
+                        <input type="email" id="modern-password" class="form-control" placeholder="abc@example.com" />
                     </div>
                     <div class="form-group form-password-toggle col-md-6">
-                        <label class="form-label" for="modern-confirm-password">Confirm Password</label>
-                        <input type="password" id="modern-confirm-password" class="form-control" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" />
+                        <label class="form-label" for="modern-confirm-password">Confirm Email</label>
+                        <input type="email" id="modern-confirm-password" class="form-control" placeholder="abc@example.com" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group form-password-toggle col-md-6">
+                        <label class="form-label" for="modern-password">Agent Office/Sales Rep Name</label>
+                        <input type="text" id="modern-password" class="form-control" placeholder="Agent Office/Sales Rep Name" />
                     </div>
                 </div>
                 <div class="d-flex justify-content-between">
@@ -97,36 +103,123 @@
                     <h5 class="mb-0">Personal Info</h5>
                     <small>Enter Your Personal Info.</small>
                 </div>
+                
                 <div class="row">
-                    <div class="form-group col-md-6">
-                        <label class="form-label" for="modern-first-name">First Name</label>
+                    <div class="form-group col-md-4">
+                        <label class="form-label" for="modern-country">What type of business is it?</label>
+                        <select class="select2 w-100" id="modern-country1">
+                            <option label=" "></option>
+                            <option>Beauty and Personal Care</option>
+                            <option>Casual</option>
+                            <option>Charities, Education and Membership</option>
+                            <option>Food and Drink</option>
+                            <option>Health Cate and Fitness</option>
+                            <option>Home and Repair</option>
+                            <option>Leisure and Entertainment</option>
+                            <option>Professional Services</option>
+                            <option>Retail</option>
+                            <option>Transportation</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label class="form-label" for="modern-country">How will you process transactions?</label>
+                        <select class="select2 w-50" id="modern-country2">
+                            <option label=" "></option>
+                            
+                            <option>Retail (face-to-face)</option>
+                            <option>Mobile (on-the-go)</option>
+                            <option>MOTO (hand0keyed transactions</option>
+                            <option>E-Commerece (your-website)</option>
+                            <option>Other</option>
+                            <option>Transportation</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label class="form-label" for="modern-first-name">Product or Service Sold (explain in full)</label>
                         <input type="text" id="modern-first-name" class="form-control" placeholder="John" />
                     </div>
+                </div>
+                
+                
+                <label class="form-label mt-1 mb-1" for="modern-first-name"><b>First Name</b></label>
+                <div class="row">
                     <div class="form-group col-md-6">
-                        <label class="form-label" for="modern-last-name">Last Name</label>
-                        <input type="text" id="modern-last-name" class="form-control" placeholder="Doe" />
+                        <label class="form-label" for="modern-first-name">Address</label>
+                        <input type="text" id="modern-first-name" class="form-control" placeholder="Address" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label class="form-label" for="modern-last-name">Street Name</label>
+                        <input type="text" id="modern-last-name" class="form-control" placeholder="Street Name" />
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group col-md-6">
-                        <label class="form-label" for="modern-country">Country</label>
-                        <select class="select2 w-100" id="modern-country">
-                            <option label=" "></option>
-                            <option>UK</option>
-                            <option>USA</option>
-                            <option>Spain</option>
-                            <option>France</option>
-                            <option>Italy</option>
-                            <option>Australia</option>
-                        </select>
+                        <label class="form-label" for="modern-first-name">City</label>
+                        <input type="text" id="modern-first-name" class="form-control" placeholder="Address" />
                     </div>
                     <div class="form-group col-md-6">
-                        <label class="form-label" for="modern-language">Language</label>
-                        <select class="select2 w-100" id="modern-language" multiple>
-                            <option>English</option>
-                            <option>French</option>
-                            <option>Spanish</option>
+                        <div class="form-group col-md-4">
+                        <label class="form-label" for="modern-country">State</label>
+                        <select class="select2 w-100" id="modern-country3">
+                            <option label=" "></option>
+                            
+                            <option>Alabama</option>
+                            <option>Alaska</option>
+                            <option>Arizona</option>
+                            <option>Arkansas</option>
+                            <option>California</option>
+                            <option>Colorado</option>
+                            <option>Connecticut</option>
                         </select>
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label class="form-label" for="modern-first-name">Zip Code</label>
+                        <input type="text" id="modern-first-name" class="form-control" placeholder="Zip Code" />
+                    </div>
+                </div>
+
+                <label class="form-label mt-1 mb-1" for="modern-first-name"><b>First Name</b></label>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label class="form-label" for="modern-first-name">Address</label>
+                        <input type="text" id="modern-first-name" class="form-control" placeholder="Address" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label class="form-label" for="modern-last-name">Street Name</label>
+                        <input type="text" id="modern-last-name" class="form-control" placeholder="Street Name" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label class="form-label" for="modern-first-name">City</label>
+                        <input type="text" id="modern-first-name" class="form-control" placeholder="Address" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <div class="form-group col-md-4">
+                        <label class="form-label" for="modern-country">State</label>
+                        <select class="select2 w-100" id="modern-country4">
+                            <option label=" "></option>
+                            
+                            <option>Alabama</option>
+                            <option>Alaska</option>
+                            <option>Arizona</option>
+                            <option>Arkansas</option>
+                            <option>California</option>
+                            <option>Colorado</option>
+                            <option>Connecticut</option>
+                        </select>
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label class="form-label" for="modern-first-name">Zip Code</label>
+                        <input type="text" id="modern-first-name" class="form-control" placeholder="Zip Code" />
                     </div>
                 </div>
                 <div class="d-flex justify-content-between">
