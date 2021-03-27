@@ -10,7 +10,7 @@
         <strong>Info:</strong> This layout can be useful for getting started with empty content section. Please check
         the&nbsp;<a
           class="text-primary"
-          href="https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/documentation/documentation-layouts.html#layout-empty"
+          href="https://www.finicalinc.com/app_crm/index.phpdemo/Finicalinc CRM-html-bootstrap-admin-template/documentation/documentation-layouts.html#layout-empty"
           target="_blank"
           >Layout empty documentation</a
         >&nbsp; for more details.

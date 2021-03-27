@@ -119,7 +119,7 @@
               <p>Absolutely!</p>
             </div>
             <div class="chat-content">
-              <p>Vuexy admin is the responsive bootstrap 4 admin template.</p>
+              <p>Finicalinc CRM admin is the responsive bootstrap 4 admin template.</p>
             </div>
           </div>
         </div>
@@ -189,7 +189,7 @@
               <p>Great, Feel free to get in touch on</p>
             </div>
             <div class="chat-content">
-              <p>https://pixinvent.ticksy.com/</p>
+              <p>https://www.finicalinc.com/app_crm/index.php/</p>
             </div>
           </div>
         </div>

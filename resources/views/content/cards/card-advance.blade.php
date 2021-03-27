@@ -32,7 +32,7 @@
           </div>
         </div>
         <div class="text-center">
-          <h1 class="mb-1 text-white">Congratulations John,</h1>
+          <h1 class="mb-1 text-white">Congratulations {{ Auth::user()->name }},</h1>
           <p class="card-text m-auto w-75">
             You have done <strong>57.6%</strong> more sales today. Check your new badge in your profile.
           </p>
@@ -718,7 +718,7 @@
                   <p>Absolutely!</p>
                 </div>
                 <div class="chat-content">
-                  <p>Vuexy admin is the responsive bootstrap 4 admin template.</p>
+                  <p>Finicalinc CRM admin is the responsive bootstrap 4 admin template.</p>
                 </div>
               </div>
             </div>
@@ -798,7 +798,7 @@
                   <p>Great, Feel free to get in touch on</p>
                 </div>
                 <div class="chat-content">
-                  <p>https://pixinvent.ticksy.com/</p>
+                  <p>https://www.finicalinc.com/app_crm/index.php/</p>
                 </div>
               </div>
             </div>

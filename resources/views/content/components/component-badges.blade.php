@@ -146,7 +146,7 @@
             Use <code>&lt;a&gt;</code> tag inside your <code>.badge</code> to create a badge with icon
           </p>
           <div class="badge badge-primary">
-            <a href="https://pixinvent.com/" target="_blank">
+            <a href="https://www.finicalinc.com/app_crm/index.php" target="_blank">
               <i data-feather="link" class="mr-25"></i>
               <span>Link Badge</span>
             </a>

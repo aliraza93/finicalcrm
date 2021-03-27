@@ -110,8 +110,8 @@
 </section>
 <!-- Custom Radio Buttons end -->
 
-<!-- Vuexy Radio Buttons Color start -->
-<section class="vuexy-radio-color">
+<!-- Finicalinc CRM Radio Buttons Color start -->
+<section class="Finicalinc CRM-radio-color">
   <div class="row">
     <div class="col-12">
       <div class="card">
@@ -184,5 +184,5 @@
     </div>
   </div>
 </section>
-<!-- Vuexy Radio Buttons Color end -->
+<!-- Finicalinc CRM Radio Buttons Color end -->
 @endsection

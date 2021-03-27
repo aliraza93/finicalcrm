@@ -416,7 +416,7 @@
             you can also use these classes on <code>&lt;a&gt;</code> or <code>&lt;input&gt;</code> elements.
           </p>
           <div class="demo-inline-spacing">
-            <a class="btn btn-primary" href="https://pixinvent.com/" role="button" target="_blank">Link</a>
+            <a class="btn btn-primary" href="https://www.finicalinc.com/app_crm/index.php" role="button" target="_blank">Link</a>
             <button class="btn btn-primary" type="submit">Button</button>
             <input class="btn btn-primary" type="button" value="Input" />
             <input class="btn btn-primary" type="submit" value="Submit" />

@@ -21,7 +21,7 @@
         <div class="alert-body">
           <strong>Info:</strong> Please check the
           <a
-            href="https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/documentation/documentation-extensions.html#file-uploader"
+            href="https://www.finicalinc.com/app_crm/index.phpdemo/Finicalinc CRM-html-bootstrap-admin-template/documentation/documentation-extensions.html#file-uploader"
             target="_blank"
             class="text-primary"
             >DropzoneJS documentation</a

@@ -132,7 +132,7 @@
           <p class="card-text">
             Use class <code>.badge.badge-pill</code> with <code>&lt;a&gt;</code> tag to make your badge a link.
           </p>
-          <a class="badge badge-pill badge-primary" href="https://pixinvent.com" target="_blank">Primary</a>
+          <a class="badge badge-pill badge-primary" href="https://www.finicalinc.com/app_crm/index.php" target="_blank">Primary</a>
         </div>
       </div>
     </div>

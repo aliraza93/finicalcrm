@@ -19,7 +19,7 @@
       <div class="alert-body">
         <strong>Info:</strong> Please check the&nbsp;<a
           class="text-primary"
-          href="https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/documentation/documentation-layouts.html#layout-boxed"
+          href="https://www.finicalinc.com/app_crm/index.phpdemo/Finicalinc CRM-html-bootstrap-admin-template/documentation/documentation-layouts.html#layout-boxed"
           target="_blank"
           >Layout boxed documentation</a
         >&nbsp; for more details.

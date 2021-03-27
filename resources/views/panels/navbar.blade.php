@@ -28,7 +28,7 @@
             </g>
           </g>
         </svg></span>
-        <h2 class="brand-text mb-0">Vuexy</h2>
+        <h2 class="brand-text mb-0">Finicalinc CRM</h2>
         </a>
       </li>
     </ul>
@@ -37,7 +37,7 @@
   <nav class="header-navbar navbar navbar-expand-lg align-items-center {{ $configData['navbarClass'] }} navbar-light navbar-shadow {{ $configData['navbarColor'] }}">
     @endif
     <div class="navbar-container d-flex content">
-        <div class="bookmark-wrapper d-flex align-items-center">
+        {{-- <div class="bookmark-wrapper d-flex align-items-center">
           <ul class="nav navbar-nav d-xl-none">
             <li class="nav-item"><a class="nav-link menu-toggle" href="javascript:void(0);"><i class="ficon" data-feather="menu"></i></a></li>
           </ul>
@@ -61,9 +61,9 @@
               </div>
             </li>
           </ul>
-        </div>
+        </div> --}}
         <ul class="nav navbar-nav align-items-center ml-auto">
-          <li class="nav-item dropdown dropdown-language">
+          {{-- <li class="nav-item dropdown dropdown-language">
             <a class="nav-link dropdown-toggle" id="dropdown-flag" href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="flag-icon flag-icon-us"></i>
               <span class="selected-language">English</span>
@@ -82,17 +82,17 @@
                 <i class="flag-icon flag-icon-pt"></i> Portuguese
               </a>
             </div>
-          </li>
+          </li> --}}
           <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-style"><i class="ficon" data-feather="{{($configData['theme'] === 'dark') ? 'sun' : 'moon' }}"></i></a></li>
           <li class="nav-item nav-search"><a class="nav-link nav-link-search"><i class="ficon" data-feather="search"></i></a>
             <div class="search-input">
               <div class="search-input-icon"><i data-feather="search"></i></div>
-              <input class="form-control input" type="text" placeholder="Explore Vuexy..." tabindex="-1" data-search="search">
+              <input class="form-control input" type="text" placeholder="Explore Finicalinc CRM..." tabindex="-1" data-search="search">
               <div class="search-input-close"><i data-feather="x"></i></div>
               <ul class="search-list search-list-main"></ul>
             </div>
           </li>
-          <li class="nav-item dropdown dropdown-cart mr-25"><a class="nav-link" href="javascript:void(0);" data-toggle="dropdown"><i class="ficon" data-feather="shopping-cart"></i><span class="badge badge-pill badge-primary badge-up cart-item-count">6</span></a>
+          {{-- <li class="nav-item dropdown dropdown-cart mr-25"><a class="nav-link" href="javascript:void(0);" data-toggle="dropdown"><i class="ficon" data-feather="shopping-cart"></i><span class="badge badge-pill badge-primary badge-up cart-item-count">6</span></a>
             <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
               <li class="dropdown-menu-header">
                 <div class="dropdown-header d-flex">
@@ -249,13 +249,13 @@
                 </div></a>
             </li>
             <li class="dropdown-menu-footer"><a class="btn btn-primary btn-block" href="javascript:void(0)">Read all notifications</a></li>
-          </ul>
+          </ul> --}}
         </li>
         <li class="nav-item dropdown dropdown-user">
           <a class="nav-link dropdown-toggle dropdown-user-link" id="dropdown-user" href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <div class="user-nav d-sm-flex d-none">
-              <span class="user-name font-weight-bolder">John Doe</span>
-              <span class="user-status">Admin</span>
+              <span class="user-name font-weight-bolder">{{ Auth::user()->name }}</span>
+              <span class="user-status">{{ Auth::user()->role }}</span>
             </div>
             <span class="avatar">
               <img class="round" src="{{asset('images/portrait/small/avatar-s-11.jpg')}}" alt="avatar" height="40" width="40">
@@ -263,7 +263,7 @@
             </span>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-user">
-            <a class="dropdown-item" href="{{url('page/profile')}}">
+            {{-- <a class="dropdown-item" href="{{url('page/profile')}}">
               <i class="mr-50" data-feather="user"></i> Profile
             </a>
             <a class="dropdown-item" href="{{url('app/email')}}">
@@ -275,19 +275,23 @@
             <a class="dropdown-item" href="{{url('app/chat')}}">
               <i class="mr-50" data-feather="message-square"></i> Chats
             </a>
-            <div class="dropdown-divider"></div>
+            <div class="dropdown-divider"></div> --}}
             <a class="dropdown-item" href="{{url('page/account-settings')}}">
               <i class="mr-50" data-feather="settings"></i> Settings
             </a>
-            <a class="dropdown-item" href="{{url('page/pricing')}}">
+            {{-- <a class="dropdown-item" href="{{url('page/pricing')}}">
               <i class="mr-50" data-feather="credit-card"></i> Pricing
             </a>
             <a class="dropdown-item" href="{{url('page/faq')}}">
               <i class="mr-50" data-feather="help-circle"></i> FAQ
+            </a> --}}
+            <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                document.getElementById('logout-form').submit();">
+                  <i class="mr-50" data-feather="power"></i> Logout
             </a>
-            <a class="dropdown-item" href="{{url('auth/login-v2')}}">
-              <i class="mr-50" data-feather="power"></i> Logout
-            </a>
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+              @csrf
+            </form>
           </div>
         </li>
       </ul>
