@@ -12,6 +12,7 @@ $(function () {
 
   var bootstrapForm = $('.needs-validation'),
     jqForm = $('#jquery-val-form'),
+    jqFormBusinessInformation = $('#jquery-val-business-information'),
     picker = $('#dob'),
     dtPicker = $('#dob-bootstrap-val'),
     select = $('.select2');
@@ -85,6 +86,46 @@ $(function () {
           required: true
         },
         'basic-default-email': {
+          required: true,
+          email: true
+        },
+        'basic-default-password': {
+          required: true
+        },
+        'confirm-password': {
+          required: true,
+          equalTo: '#basic-default-password'
+        },
+        'select-country': {
+          required: true
+        },
+        dob: {
+          required: true
+        },
+        customFile: {
+          required: true
+        },
+        validationRadiojq: {
+          required: true
+        },
+        validationBiojq: {
+          required: true
+        },
+        validationCheck: {
+          required: true
+        }
+      }
+    });
+  }
+  //Business Information Validation
+
+  if (jqFormBusinessInformation.length) {
+    jqFormBusinessInformation.validate({
+      rules: {
+        'modern-username': {
+          required: true
+        },
+        'modern-phone-number': {
           required: true,
           email: true
         },

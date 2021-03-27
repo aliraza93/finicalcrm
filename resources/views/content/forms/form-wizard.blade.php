@@ -12,6 +12,10 @@
 <!-- Page css files -->
 <link rel="stylesheet" href="{{ asset('css/base/plugins/forms/form-validation.css') }}">
 <link rel="stylesheet" href="{{ asset('css/base/plugins/forms/form-wizard.css') }}">
+
+<link rel="stylesheet" href="{{ asset('vendors/css/pickers/flatpickr/flatpickr.min.css') }}">
+<link rel="stylesheet" href="{{ asset('css/base/plugins/forms/pickers/form-flat-pickr.css') }}">
+
 @endsection
 
 @section('content')
@@ -34,6 +38,9 @@
 <script src="{{ asset('vendors/js/forms/wizard/bs-stepper.min.js') }}"></script>
 <script src="{{ asset('vendors/js/forms/select/select2.full.min.js') }}"></script>
 <script src="{{ asset('vendors/js/forms/validation/jquery.validate.min.js') }}"></script>
+
+<script src="{{ asset('vendors/js/pickers/flatpickr/flatpickr.min.js') }}"></script>
+<script src="{{ asset('js/scripts/forms/form-validation.js') }}"></script>
 @endsection
 @section('page-script')
 <!-- Page js files -->
