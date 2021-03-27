@@ -93,6 +93,7 @@
     { "name": "Input Mask", "url": "form/input-mask", "icon": "copy" },
     { "name": "Form Layout", "url": "form/layout", "icon": "layout" },
     { "name": "Form Wizard", "url": "form/wizard", "icon": "sliders" },
+    { "name": "Create Apps", "url": "apps/create", "icon": "package" },
     { "name": "Form Validation", "url": "form/validation", "icon": "thumbs-up" },
     { "name": "Form Repeater", "url": "form/repeater", "icon": "rotate-cw" },
     { "name": "Apex Chart", "url": "chart/apex", "icon": "bar-chart" },

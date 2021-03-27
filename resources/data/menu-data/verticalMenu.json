@@ -59,7 +59,77 @@
       "name": "Form Validation",
       "icon": "check-circle",
       "slug": "form-validation"
+    },
+
+    {
+      "navheader": "Cost Plus Pricing Application",
+      "slug": ""
+    },
+    {
+      "url": "app/user/list",
+      "name": "Partial Apps",
+      "icon": "package",
+      "slug": "partial-apps-cost-plus"
+    },
+    {
+      "url": "app/user/list",
+      "name": "Submitted Apps",
+      "icon": "package",
+      "slug": "submitted-apps-cost-plus"
+    },
+    {
+      "url": "apps/create",
+      "name": "Create Apps",
+      "icon": "package",
+      "slug": "create-apps-cost-plus"
     }
+    ,
+
+    {
+      "navheader": "Surcharge Pricing Application",
+      "slug": ""
+    },
+    {
+      "url": "app/user/list",
+      "name": "Partial Apps",
+      "icon": "package",
+      "slug": "partial-apps-surcharge-pricing-apps"
+    },
+    {
+      "url": "app/user/list",
+      "name": "Submitted Apps",
+      "icon": "package",
+      "slug": "submitted-apps-surcharge-pricing-apps"
+    },
+    {
+      "url": "apps/create",
+      "name": "Create Apps",
+      "icon": "package",
+      "slug": "create-apps-surcharge-pricing-apps"
+    },
+    {
+      "navheader": "Tiered Pricing (Coming Soon)",
+      "slug": ""
+    },
+    {
+      "url": "app/user/list",
+      "name": "Partial Apps",
+      "icon": "package",
+      "slug": "partial-apps-tiered-pricing"
+    },
+    {
+      "url": "app/user/list",
+      "name": "Submitted Apps",
+      "icon": "package",
+      "slug": "submitted-apps-tiered-pricing"
+    },
+    {
+      "url": "apps/create",
+      "name": "Create Apps",
+      "icon": "package",
+      "slug": "create-apps-tiered-pricing"
+    }
+
     
   ]
 }

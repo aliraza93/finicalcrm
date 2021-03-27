@@ -127,6 +127,18 @@ Route::middleware('auth')->group(function () {
     });
     /* Route Page Layouts */
 
+    /* Route Apps */
+    Route::group(['prefix' => 'apps'], function () {
+      Route::get('create', 'AppController@create')->name('create-apps');
+      Route::resource('business-information', 'BusinessInformationController');
+      Route::post('address-details/{app_id}', 'AddressDetailsController@store');
+      Route::post('charges-and-fees/{app_id}', 'ChargesAndFeeController@store');
+      Route::get('create', 'AppController@create')->name('create-apps-cost-plus');
+      Route::get('create', 'AppController@create')->name('create-apps-surcharge-pricing-apps');
+      Route::get('create', 'AppController@create')->name('create-apps-tiered-pricing');
+    });
+    /* Route Apps */
+
     /* Route Forms */
     Route::group(['prefix' => 'form'], function () {
       Route::get('input', 'FormsController@input')->name('form-input');
